@@ -9,20 +9,23 @@
   width: 100px;
   height: 100px;
   border-radius: 10px;
+  overflow: hidden; /* Обрезаем изображение по границам контейнера */
 }
 .image {
   max-width: 100%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 10px; /* Убираем лишние закругления */
 }
 .nameContainer {
-  margin-left: 50px;
+  margin-left: 20px; /* Уменьшаем отступ для более компактного вида */
 }
 .name {
-  font-size: large;
+  font-size: 1.2em; /* Увеличиваем размер шрифта */
   font-weight: bold;
+  color: #393e46;
 }
 .amount {
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 5px; /* Уменьшаем отступ для более компактного вида */
+  color: #6c757d; /* Серый цвет для количества */
 }

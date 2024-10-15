@@ -1,21 +1,26 @@
-.searchContainer{
+.searchContainer {
   margin: 20px auto;
   width: 300px;
   position: relative;
-
 }
 
-.input{
+.input {
   border: none;
-  border-bottom: 1px solid #e3e4dc;
+  border-bottom: 2px solid #007BFF; /* Цвет нижней границы */
   padding: 10px 20px;
   width: 100%;
-  border: none;
   font-size: 16px;
   color: #393e46;
-  box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Мягкая тень */
+  transition: border-color 0.3s; /* Плавный переход цвета */
 }
 
 .input:focus {
   outline: none;
+  border-bottom: 2px solid #0056b3; /* Темнее при фокусе */
+}
+
+.input::placeholder {
+  color: #6c757d; /* Цвет для плейсхолдера */
+  opacity: 0.7; /* Полупрозрачный плейсхолдер */
 }

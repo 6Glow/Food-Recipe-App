@@ -1,8 +1,10 @@
-.nav{
+.nav {
   font-size: 2em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif; /* Используем тот же шрифт */
   font-weight: bold;
-  color: #393e46;
+  color: #007BFF; /* Цвет навигации */
   padding: 30px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Мягкая тень */
+  background-color: #ffffff; /* Белый фон для навигации */
+  border-radius: 10px; /* Закругленные углы */
 }

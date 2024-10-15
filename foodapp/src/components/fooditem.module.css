@@ -1,40 +1,53 @@
 .itemContainer {
   width: 300px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
   overflow: hidden;
-  font-family: Polisans, sans-serif
+  background-color: #ffffff; /* Белый фон для элементов */
+  transition: transform 0.3s, box-shadow 0.6s; /* Плавные эффекты */
+  
 }
 
-.itemImage{
+.itemContainer:hover {
+  transform: translateY(-5px); /* Поднимаем элемент при наведении */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Увеличиваем тень при наведении */
+}
+
+
+.itemImage {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
-.itemContent{
-  font-family: Arial, Helvetica, sans-serif;
+.itemContent {
   text-align: center;
+  padding: 15px; /* Добавляем отступы */
 }
-.itemName{
-  font-size: 1em;
+.itemName {
+  font-size: 1.2em; /* Увеличиваем размер шрифта */
   font-weight: 600;
   color: #393e46;
 }
 
-.itemButton{
-  background-color: #29bb89;
+.itemButton {
+  background-color: #007BFF; /* Современный цвет кнопки */
   border: none;
   color: white;
-  padding: 10px;
-  font-size: 14px;
-  font-weight: 600px;
+  padding: 12px 20px; /* Увеличиваем отступы */
+  font-size: 16px; /* Увеличиваем размер шрифта */
+  font-weight: bold; /* Убираем лишний стиль */
   cursor: pointer;
   border-radius: 6px;
-  
+  transition: background-color 0.3s; /* Плавный переход цвета */
 }
 
-.buttonContainer{
+.itemButton:hover {
+  background-color: #0056b3; /* Темнее при наведении */
+}
+
+.buttonContainer {
   margin-bottom: 20px;
   display: flex;
   justify-content: space-around;
