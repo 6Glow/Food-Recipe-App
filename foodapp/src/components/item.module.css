@@ -5,7 +5,6 @@
   box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
   border-radius: 10px;
 }
-
 .imageContainer {
   width: 100px;
   height: 100px;
@@ -16,16 +15,13 @@
   height: auto;
   border-radius: 20px;
 }
-
 .nameContainer {
   margin-left: 50px;
 }
-
 .name {
   font-size: large;
   font-weight: bold;
 }
-
 .amount {
   font-weight: bold;
   margin-top: 10px;
