@@ -31,7 +31,7 @@ A modern, responsive React application for discovering and exploring food recipe
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/6Glow/Food-Recipe-App.git
 ```
 
 2. Install dependencies:
